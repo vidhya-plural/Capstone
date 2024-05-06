@@ -4,41 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> HEADER | E-COMMERCE WEBSITE </title>
+    <title> HOME | E-COMMERCE WEBSITE </title>
     <!-- favicon -->
     <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
     <!-- EXTERNAL LINKS -->
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="./css/login.css">
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-    <header>
-        <section>
-            <!-- MAIN CONTAINER -->
-            <div id="container">
-                <!-- SHOP NAME -->
-                <div id="shopName"><a href="index.html"> <b>SHOP</b>LANE </a></div>
-                    <!-- COLLCETIONS ON WEBSITE -->
-                    <div id="collection">
-                        <div id="clothing"><a href="clothing.html"> CLOTHING </a></div>
-                        <div id="accessories"><a href="accessories.html"> ACCESSORIES </a></div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+        href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+    </script>
+ 
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+    </script>
+    <style>
+        article { 
+            margin: 15px; 
+        } 
+        h1 {
+            color: green;
+        }
+        .carousel-inner {
+            height: 400px;
+        }
+         
+        .item.active {
+            height: 400px!important;
+        }
+         
+        .item img {
+            object-fit: cover;
+            height: 100%!important;
+        }
+    </style>
+</head>           
+  <header>
+    <div class="header">
+        <a href="#default" class="logo">SHOPLANE</a>
+        <div class="header-right">
+          <a class="active" href="./header.html">Home</a>
+          <a href="product_men.html">Mens_Collection</a>
+          <a href="product_women.html">Womens_Collection</a>
+          <a href="order.html">Order</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./login.html">Login</a>
+        </div>
+        </div>
+  </header>
+              <body>
+                <div class="container-fluid">
+                    <div id="carousel1"
+                        class="carousel slide carousel-fade"
+                        data-ride="carousel" style="height:50vh">
+                     
+                        <!--Indicators-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel1"
+                                data-slide-to="0"
+                                class="active"></li>
+                            <li data-target="#carousel1"
+                                data-slide-to="1"></li>
+                            <li data-target="#carousel1"
+                                data-slide-to="2"></li>
+                        </ol>
+                 
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="view">
+                                    <img src=
+            "./images/img3.png"
+                                        alt="First slide">
+                                    <div class="mask rgba-black-light"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                             
+                                <!-- Slideer 1 -->
+                                <div class="view">
+                                    <img src=
+            "./images/img2.png"
+                                        alt="Second slide">
+                                    <div class="mask rgba-black-strong"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                             
+                                <!-- Slideer 2 -->
+                                <div class="view">
+                                    <img src=
+            "./images/img1.png"
+                                        alt="Third slide">
+                                    <div class="mask rgba-black-slight"></div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                        <!-- Slideer 3 -->
+                        <a class="carousel-control-prev"
+                        href="#carousel1" role="button"
+                        data-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next"
+                        href="#carousel1" role="button"
+                        data-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <!-- SEARCH SECTION -->
-                    <div id="search">
-                        <i class="fas fa-search search"></i>
-                        <input type="text" id="input" name="searchBox" placeholder="Search for Clothing and Accessories">
-                    </div>
-                    <!-- USER SECTION (CART AND USER ICON) -->
-                    <div id="user">
-                        <a href="cart.html"> <i class="fas fa-shopping-cart addedToCart"><div id="badge"> 0 </div></i></a>
-                        <a href="#"> <i class="fas fa-user-circle userIcon"></i> </a>
-                    </div>
-            </div>
-
-        </section>
-    </header>
-
+                </div>
+                <article>
+                    <h1></h1>
+                    <b>shopping</b>
+                </article>
+         
+      <h4>ONLINE SHOPPING MADE EASY AT SHOPLANE</h4>
+      <p>If you would like to experience the best of online shopping for men and women in India, you are at the right place. Shoplane is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, accessories products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Shoplane from the comfort of your home and get your favourites delivered right to your doorstep.</p>
+      <p>Be it clothing accessories, Shoplane offers you the ideal combination of fashion and functionality for men and women  You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.</p>
+    </div>
+   
 </body>
+      <footer>
+          <section>    
+              <div id="containerFooter">
+                  
+                  <div id="webFooter">
+                      <h4> Popular features </h4>
+                      <p> men clothing </p>
+                      <p> women clothing </p>
+                      <p> men accessories </p>
+                      <p> women accessories </p>
+                  </div>
+                  <div id="webFooter">
+                      <h4> helpful link </h4>
+                      <p> home </p>
+                      <p> about </p>
+                      <p> contact </p>
+                  </div>
+                
+                  <div id="webFooter">
+                      <h4> Address </h4>
+                      <p> building 108 </p>
+                      <p> central avenue </p>
+                      <p> KA - 560024 </p>
+                      <p> India </p>
+                  </div>
+              </div>
+              <div id="credit"><a href="https://linkedin.com/in/vidhya"> © Vidhya V | 2024 </a></div>
+          </section>
+      </footer>
 </html>

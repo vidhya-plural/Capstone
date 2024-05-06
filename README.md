@@ -1,2 +1,3 @@
 # Capstone
-Capstone project on E-Commerce website for men &amp; women clothing and accessories
+Capstone project on E-Commerce website for Men & Women clothing and accessories.
+
