@@ -3,8 +3,8 @@
 #containerFooter
 {
     width: 100%;
-    background-color: rgb(98, 92, 92);
-    color: white;
+      background: linear-gradient(90deg, #b0aede, #776BCC);	
+    color: rgb(6, 5, 5);
     letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -30,7 +30,7 @@
     padding: 20px 0;
     text-align: center;
     background-color: rgb(29, 29, 29);
-    color: white;
+    color: rgb(251, 244, 244);
     font-size: 11px;
     letter-spacing: 1px;
 }
