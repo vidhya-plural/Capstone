@@ -9,7 +9,7 @@
   /* Style the header links */
   .header a {
     float: left;
-    color: rgb(14, 13, 13);
+     color: rgb(15, 14, 14);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -22,12 +22,14 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+	  font-family: 'Medula One', cursive;
+	font-size: 45px;
   }
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #4271f5;
-    color: rgb(62, 6, 6);
+    color: rgb(11, 10, 10);
+   
   }
   
   /* Style the active/current link*/
@@ -61,7 +63,7 @@
 }
 
 body {
-	background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+	background: linear-gradient(90deg, #a7a3eb, #776BCC);		
 }
 
 body {
@@ -78,7 +80,19 @@ body {
 	font-style: italic;
   }
 
- 
+ .p1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size-adjust: 0.5em;
+
+	line-height: calc(1ex / 0.35);
+
+	font-size: 1.75em;
+
+	
+
+  }
 .container {
 	display: flex;
 	align-items: center;
